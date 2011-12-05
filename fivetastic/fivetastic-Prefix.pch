@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'fivetastic' target in the 'fivetastic' project
+//
+
+#ifdef __OBJC__
+  #import <Cocoa/Cocoa.h>
+#endif

@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		712B8966148C6FB30029C6FB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 712B8965148C6FB30029C6FB /* Cocoa.framework */; };
+		712B8968148C6FB30029C6FB /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 712B8967148C6FB30029C6FB /* MacRuby.framework */; };
+		712B896F148C6FB30029C6FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 712B896D148C6FB30029C6FB /* InfoPlist.strings */; };
+		712B8971148C6FB30029C6FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B8970148C6FB30029C6FB /* main.m */; };
+		712B8976148C6FB40029C6FB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 712B8974148C6FB40029C6FB /* MainMenu.xib */; };
+		712B8979148C6FB40029C6FB /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 712B8978148C6FB40029C6FB /* rb_main.rb */; };
+		712B897B148C6FB40029C6FB /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 712B897A148C6FB40029C6FB /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		712B8961148C6FB30029C6FB /* fivetastic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fivetastic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		712B8965148C6FB30029C6FB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		712B8967148C6FB30029C6FB /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		712B896C148C6FB30029C6FB /* fivetastic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fivetastic-Info.plist"; sourceTree = "<group>"; };
+		712B896E148C6FB30029C6FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		712B8970148C6FB30029C6FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		712B8972148C6FB30029C6FB /* fivetastic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fivetastic-Prefix.pch"; sourceTree = "<group>"; };
+		712B8975148C6FB40029C6FB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		712B8978148C6FB40029C6FB /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		712B897A148C6FB40029C6FB /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		712B895E148C6FB30029C6FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712B8966148C6FB30029C6FB /* Cocoa.framework in Frameworks */,
+				712B8968148C6FB30029C6FB /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		712B8956148C6FB30029C6FB = {
+			isa = PBXGroup;
+			children = (
+				712B896A148C6FB30029C6FB /* fivetastic */,
+				712B8964148C6FB30029C6FB /* Frameworks */,
+				712B8962148C6FB30029C6FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		712B8962148C6FB30029C6FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				712B8961148C6FB30029C6FB /* fivetastic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		712B8964148C6FB30029C6FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				712B8965148C6FB30029C6FB /* Cocoa.framework */,
+				712B8967148C6FB30029C6FB /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		712B896A148C6FB30029C6FB /* fivetastic */ = {
+			isa = PBXGroup;
+			children = (
+				712B897A148C6FB40029C6FB /* AppDelegate.rb */,
+				712B8973148C6FB40029C6FB /* Resources */,
+				712B8977148C6FB40029C6FB /* Other Sources */,
+				712B896B148C6FB30029C6FB /* Supporting Files */,
+			);
+			path = fivetastic;
+			sourceTree = "<group>";
+		};
+		712B896B148C6FB30029C6FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				712B896C148C6FB30029C6FB /* fivetastic-Info.plist */,
+				712B896D148C6FB30029C6FB /* InfoPlist.strings */,
+				712B8970148C6FB30029C6FB /* main.m */,
+				712B8972148C6FB30029C6FB /* fivetastic-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		712B8973148C6FB40029C6FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				712B8974148C6FB40029C6FB /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		712B8977148C6FB40029C6FB /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				712B8978148C6FB40029C6FB /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		712B8969148C6FB30029C6FB /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 712B8981148C6FB40029C6FB /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		712B8960148C6FB30029C6FB /* fivetastic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 712B897E148C6FB40029C6FB /* Build configuration list for PBXNativeTarget "fivetastic" */;
+			buildPhases = (
+				712B895D148C6FB30029C6FB /* Sources */,
+				712B895E148C6FB30029C6FB /* Frameworks */,
+				712B895F148C6FB30029C6FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fivetastic;
+			productName = fivetastic;
+			productReference = 712B8961148C6FB30029C6FB /* fivetastic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		712B8958148C6FB30029C6FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = makevoid;
+			};
+			buildConfigurationList = 712B895B148C6FB30029C6FB /* Build configuration list for PBXProject "fivetastic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 712B8956148C6FB30029C6FB;
+			productRefGroup = 712B8962148C6FB30029C6FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				712B8960148C6FB30029C6FB /* fivetastic */,
+				712B8969148C6FB30029C6FB /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		712B895F148C6FB30029C6FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712B896F148C6FB30029C6FB /* InfoPlist.strings in Resources */,
+				712B8976148C6FB40029C6FB /* MainMenu.xib in Resources */,
+				712B8979148C6FB40029C6FB /* rb_main.rb in Resources */,
+				712B897B148C6FB40029C6FB /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		712B895D148C6FB30029C6FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712B8971148C6FB30029C6FB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		712B896D148C6FB30029C6FB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				712B896E148C6FB30029C6FB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		712B8974148C6FB40029C6FB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				712B8975148C6FB40029C6FB /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		712B897C148C6FB40029C6FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		712B897D148C6FB40029C6FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		712B897F148C6FB40029C6FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fivetastic/fivetastic-Prefix.pch";
+				INFOPLIST_FILE = "fivetastic/fivetastic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		712B8980148C6FB40029C6FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fivetastic/fivetastic-Prefix.pch";
+				INFOPLIST_FILE = "fivetastic/fivetastic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		712B8982148C6FB40029C6FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		712B8983148C6FB40029C6FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		712B895B148C6FB30029C6FB /* Build configuration list for PBXProject "fivetastic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				712B897C148C6FB40029C6FB /* Debug */,
+				712B897D148C6FB40029C6FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		712B897E148C6FB40029C6FB /* Build configuration list for PBXNativeTarget "fivetastic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				712B897F148C6FB40029C6FB /* Debug */,
+				712B8980148C6FB40029C6FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		712B8981148C6FB40029C6FB /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				712B8982148C6FB40029C6FB /* Debug */,
+				712B8983148C6FB40029C6FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 712B8958148C6FB30029C6FB /* Project object */;
+}
