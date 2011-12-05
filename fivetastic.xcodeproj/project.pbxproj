@@ -13,7 +13,13 @@
 		712B8971148C6FB30029C6FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B8970148C6FB30029C6FB /* main.m */; };
 		712B8976148C6FB40029C6FB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 712B8974148C6FB40029C6FB /* MainMenu.xib */; };
 		712B8979148C6FB40029C6FB /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 712B8978148C6FB40029C6FB /* rb_main.rb */; };
-		712B897B148C6FB40029C6FB /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 712B897A148C6FB40029C6FB /* AppDelegate.rb */; };
+		712B898A148C74C00029C6FB /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 712B8989148C74C00029C6FB /* AppDelegate.rb */; };
+		712B898F148C75920029C6FB /* SitesVC.rb in Resources */ = {isa = PBXBuildFile; fileRef = 712B898E148C75920029C6FB /* SitesVC.rb */; };
+		712B8991148C75B40029C6FB /* SiteVC.rb in Resources */ = {isa = PBXBuildFile; fileRef = 712B8990148C75B40029C6FB /* SiteVC.rb */; };
+		712B8993148C76070029C6FB /* Site.rb in Resources */ = {isa = PBXBuildFile; fileRef = 712B8992148C76070029C6FB /* Site.rb */; };
+		712B8995148C76350029C6FB /* Settings.rb in Resources */ = {isa = PBXBuildFile; fileRef = 712B8994148C76350029C6FB /* Settings.rb */; };
+		712B8998148C7FF40029C6FB /* executable.rb in Resources */ = {isa = PBXBuildFile; fileRef = 712B8996148C7FF40029C6FB /* executable.rb */; };
+		712B8999148C7FF40029C6FB /* Server.rb in Resources */ = {isa = PBXBuildFile; fileRef = 712B8997148C7FF40029C6FB /* Server.rb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +32,13 @@
 		712B8972148C6FB30029C6FB /* fivetastic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fivetastic-Prefix.pch"; sourceTree = "<group>"; };
 		712B8975148C6FB40029C6FB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		712B8978148C6FB40029C6FB /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
-		712B897A148C6FB40029C6FB /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		712B8989148C74C00029C6FB /* AppDelegate.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		712B898E148C75920029C6FB /* SitesVC.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = SitesVC.rb; sourceTree = "<group>"; };
+		712B8990148C75B40029C6FB /* SiteVC.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = SiteVC.rb; sourceTree = "<group>"; };
+		712B8992148C76070029C6FB /* Site.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Site.rb; sourceTree = "<group>"; };
+		712B8994148C76350029C6FB /* Settings.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Settings.rb; sourceTree = "<group>"; };
+		712B8996148C7FF40029C6FB /* executable.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = executable.rb; sourceTree = "<group>"; };
+		712B8997148C7FF40029C6FB /* Server.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Server.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +83,7 @@
 		712B896A148C6FB30029C6FB /* fivetastic */ = {
 			isa = PBXGroup;
 			children = (
-				712B897A148C6FB40029C6FB /* AppDelegate.rb */,
+				712B8988148C74C00029C6FB /* Classes */,
 				712B8973148C6FB40029C6FB /* Resources */,
 				712B8977148C6FB40029C6FB /* Other Sources */,
 				712B896B148C6FB30029C6FB /* Supporting Files */,
@@ -104,6 +116,20 @@
 				712B8978148C6FB40029C6FB /* rb_main.rb */,
 			);
 			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		712B8988148C74C00029C6FB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				712B8996148C7FF40029C6FB /* executable.rb */,
+				712B8997148C7FF40029C6FB /* Server.rb */,
+				712B8989148C74C00029C6FB /* AppDelegate.rb */,
+				712B8992148C76070029C6FB /* Site.rb */,
+				712B898E148C75920029C6FB /* SitesVC.rb */,
+				712B8990148C75B40029C6FB /* SiteVC.rb */,
+				712B8994148C76350029C6FB /* Settings.rb */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,7 +203,13 @@
 				712B896F148C6FB30029C6FB /* InfoPlist.strings in Resources */,
 				712B8976148C6FB40029C6FB /* MainMenu.xib in Resources */,
 				712B8979148C6FB40029C6FB /* rb_main.rb in Resources */,
-				712B897B148C6FB40029C6FB /* AppDelegate.rb in Resources */,
+				712B898A148C74C00029C6FB /* AppDelegate.rb in Resources */,
+				712B898F148C75920029C6FB /* SitesVC.rb in Resources */,
+				712B8991148C75B40029C6FB /* SiteVC.rb in Resources */,
+				712B8993148C76070029C6FB /* Site.rb in Resources */,
+				712B8995148C76350029C6FB /* Settings.rb in Resources */,
+				712B8998148C7FF40029C6FB /* executable.rb in Resources */,
+				712B8999148C7FF40029C6FB /* Server.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +354,7 @@
 				712B8980148C6FB40029C6FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		712B8981148C6FB40029C6FB /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
 			isa = XCConfigurationList;
@@ -330,6 +363,7 @@
 				712B8983148C6FB40029C6FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
