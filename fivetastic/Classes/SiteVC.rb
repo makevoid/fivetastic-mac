@@ -13,4 +13,15 @@ class SiteVC
     server.start!
   end
   
+  include Executable
+  
+  def preview(sender)
+    exec "open http://localhost:3000"
+  end
+  
+  def edit(sender)
+    path = Settings.site_path @site
+    exec "cd #{path}; /usr/local/bin/mate ."
+  end
+  
 end

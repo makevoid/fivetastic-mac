@@ -14,7 +14,6 @@ class AppDelegate
     site_view.hidden = true
     new_site_name.stringValue = "asd"
   end
-
   
   def create_site(sender)
     site_view.hidden = false
